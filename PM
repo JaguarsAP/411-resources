@@ -1,0 +1,23 @@
+Agile Project Management
+1. As a vanilla git power-user that has never seen GiggleGit before, I want to smoothly transition into the new software
+2. As a team lead onboarding an experienced GiggleGit user, I want to demonstrate the connections between the front end and back end of the product.
+3. As a relatively new user, I want to be able to navigate GiggleGit with relative ease.
+  a. Task 1 - create an interface that is intuitive and can be used to navigate the app.
+    i. Ticket 1 - model an appropriate front end for the site
+      1. Color scheming, size, shape and design of various parts of the app are to be taken into account
+    ii. Ticket 2 - Match the back end to the UI
+      2. Various software engineering elements required
+4. This is not a user story, this should be a feature of the product itself, since it is a benefit of using a version control system.
+
+
+Formal Requirements
+1. A Goal is the ability to generate stickers randomly when merging
+2. A non-goal is the inclusion of an offline mode, since syncing must be done online
+
+3. Non-Functional Requirements
+  a. A GiggleGit user must be able to manage whether a Snickersync user has access to the files in the main branches
+    i. A popup that demonstrates the lack of access
+    ii. An authenticator that allows the owner of main to access it from Snickersync
+  b. Snickersync must be able to use the interface easily
+    i. Appealing interface must be constructed
+    ii. The system must be able to be accessed by people with dissabilities such as colorblindness.
