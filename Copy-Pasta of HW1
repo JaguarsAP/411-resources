@@ -1,0 +1,31 @@
+SS and Whatnot 
+
+1. root@LAPTOP-M0PFLPUM:~/411-resources/HW/HW2 Docker/flask# docker run -p 5002:5002 hw1:1.0
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+
+2. 
+{
+  "response": "Hello, World!",
+  "status": 200
+}
+
+
+3. root@LAPTOP-M0PFLPUM:~/411-resources/HW/HW2 Docker/flask# curl localhost:5002
+{"body":"foo","status":200}
+
+4. root@LAPTOP-M0PFLPUM:~/411-resources/HW/HW2 Docker/flask# curl localhost:5002/health
+{"body":"OK","status":200}
+root@LAPTOP-M0PFLPUM:~/411-resources/HW/HW2 Docker/flask# curl localhost:5002/healthcheck
+{"body":"OK","status":200}
+
+5. 
+"Health": {
+			"Status": "starting",
+"Health": {
+			"Status": "unhealthy",
+
+
